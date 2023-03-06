@@ -1,0 +1,24 @@
+{
+  "name": "managerio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "App for business management and customer engagement",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrestonMonteWest/managerio.git"
+  },
+  "keywords": [
+    "managerio",
+    "engagement",
+    "business"
+  ],
+  "author": "Preston West",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrestonMonteWest/managerio/issues"
+  },
+  "homepage": "https://github.com/PrestonMonteWest/managerio#readme",
+  "workspaces": [
+    "./apps/*/"
+  ]
+}
