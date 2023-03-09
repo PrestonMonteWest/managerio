@@ -24,8 +24,9 @@
     "compile": "tsc -b",
     "eslint": "eslint apps/**/**.{ts,tsx}",
     "eslint:fix": "eslint apps/**/**.{ts,tsx} --fix",
-    "prebuild": "npm run eslint",
-    "build": "tsc -b"
+    "prebuild": "npm run eslint && npm run prettier-check",
+    "build": "tsc -b",
+    "start:api": "node apps/managerio-api/dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^18.14.6",
