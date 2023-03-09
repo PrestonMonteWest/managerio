@@ -16,6 +16,7 @@ npm-debug.log
 
 # Build Files
 apps/**/dist
+apps/managerio-ui-rn/.expo
 libs/**/dist
 
 README.md
