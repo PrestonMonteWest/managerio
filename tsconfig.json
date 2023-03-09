@@ -1,0 +1,11 @@
+{
+  "references": [
+    {
+      "path": "./apps/managerio-api"
+    },
+    {
+      "path": "./apps/managerio-ui-rn"
+    }
+  ],
+  "files": []
+}
