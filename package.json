@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/PrestonMonteWest/managerio#readme",
   "scripts": {
+    "prettier-check": "prettier --check .",
+    "prettier-fix": "prettier --write .",
     "compile": "tsc -b",
     "eslint": "eslint apps/**/**.{ts,tsx}",
     "eslint:fix": "eslint apps/**/**.{ts,tsx} --fix",

@@ -17,3 +17,5 @@ npm-debug.log
 # Build Files
 apps/**/dist
 libs/**/dist
+
+README.md
