@@ -1,9 +1,11 @@
 {
-  "name": "managerio-api",
+  "name": "@managerio/api",
   "version": "0.1.0",
   "description": "API for Managerio",
   "main": "dist/index.js",
   "scripts": {
+    "compile": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
     "prebuild": "npm run lint",
     "build": "tsc",
@@ -17,15 +19,6 @@
     "graphql-http": "^1.16.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.17",
-    "@types/node": "^18.14.6",
-    "@typescript-eslint/eslint-plugin": "^5.54.0",
-    "@typescript-eslint/parser": "^5.54.0",
-    "dotenv": "^8.6.0",
-    "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
+    "@types/express": "^4.17.17"
   }
 }
